@@ -1,0 +1,164 @@
+body {
+  background: #F3F3F3;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+  margin: 0 0 0.625rem;
+}
+
+a, a:hover, a:focus {
+  color: #121515;
+}
+
+/* Container */
+.jumbotron {
+  width: 100%;
+  position: relative;
+}
+
+.bottom {
+  
+  text-align: center;
+}
+
+
+/* Form */
+
+.auth-forms {
+  max-width:25rem;
+  margin:0 auto;  
+  padding:0.0625rem 1.5625rem 1.5625rem 1.5625rem;
+}
+
+/* Nav Bar */
+
+.navbar {
+  margin-bottom: 0;
+  font-size: 1.2em;
+  box-sizing: border-box;
+}
+
+.title {
+  color: #5C5E60;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.img-circle.gravatar {
+  width: 1.875rem;
+}
+
+/* Panel */
+
+.panel-title {
+  font-weight: bold;
+}
+
+.img-browse {
+  padding-top: 1.875rem;
+}
+
+.panel-success > .panel-heading .badge {
+  color: #0F9D58;
+  background-color: #FFFFFF;
+  font-size: 0.9375rem;
+  margin-left: 0.3125rem;
+}
+
+.panel-warning > .panel-heading .badge {
+  color: #FF5722;
+  background-color: #FFFFFF;
+  font-size: 0.9375rem;
+  margin-left: 0.3125rem;
+}
+
+/* Task Header */
+
+.price-tag {
+  font-size: 2.5rem;
+  font-weight: 300;  
+  margin-top: 1.25rem;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Task List */
+
+.list-group .list-group-item .row-picture img {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.list-group .list-group-item .list-group-item-heading {
+  color: rgba(0,0,0,.70);
+  font-size: 1.30rem;
+  font-weight: bold;
+  line-height: 1rem;
+}
+
+.list-group .list-group-item .row-content {
+  float: left;
+  margin-top: 0;
+  width: 40%;
+  width: calc(100% - 10rem);
+  height: 3.75rem;
+}
+
+.list-group .list-group-item .payment {
+  float: right;
+  margin-top: 0;  
+  width: 5.3125rem;
+  text-align: center;
+  font-size: 1.875rem;
+  line-height: 1.875rem;
+}
+
+.list-group .list-group-item .payment .status{
+  font-size: 1.3rem;
+  position: absolute;
+  padding: 0.3125rem;
+  right: 0.3125rem;
+  bottom: 0.3125rem;
+  width: 5.625rem;
+  height: 1.5625rem; 
+}
+
+.list-group-item-text {
+  font-size: 1em;
+  margin-bottom: 0;
+  line-height: 1.3;
+}
+
+.open {
+  background-color: #03a9f4;
+}
+
+.assigned {
+  background-color: #9e9e9e;
+}
+
+.completed {
+  background-color: #9e9e9e;
+}
+
+/* Comments */
+
+.well.well-sm.cmt {
+  color: rgba(94, 94, 94, 1);
+  font-size: 1rem;
+}
+
+.cmt-title {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.cmt-time {
+  font-size: 0.95rem;
+}
+
+.img-circle.comment.gravatar {
+  width: 2.1875rem;
+  margin-right: 0.3125rem;
+}
